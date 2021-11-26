@@ -34,8 +34,12 @@ npm run start
 You can put this HTML String everywhere HTML is allowed (like the Chat or your About Me)
 
 ```
-<img src="https://<serverip>:3000/log">
+<img src="https://<serverip>:<port>/log">
 ```
+
+Notice: The **port** is defined in tbe **config.json** and may be changed.
+
+Warning: **SOME PORTS NEED ADMINSTRATOR PERMISSIONS (like 80), JUST DO `sudo npm run start` INSTEAD OF `npm run start`**
 
 ## Note
 
