@@ -15,7 +15,6 @@ We are not responsible for any illegal actions commited with this project.
 ### Clone the repository
 
 ```
-mkdir MoodleIPLogger
 cd MoodleIPLogger
 git clone https://github.com/SirLennox/MoodleIPLogger
 ```
