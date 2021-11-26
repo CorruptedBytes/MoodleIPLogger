@@ -6,7 +6,7 @@ You can also get some default response headers.
 
 ## Disclaimer
 
-This project is for educational purposes only.
+This project is for educational purposes only!
 
 We are not responsible for any illegal actions commited with this project.
 
