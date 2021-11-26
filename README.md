@@ -1,3 +1,4 @@
+
 # MoodleIPLogger
 Log the IP of any Moodle User by using manipulated HTML.
 
@@ -20,27 +21,35 @@ git clone https://github.com/SirLennox/MoodleIPLogger
 ```
 ### Install Node Packages
 
-```
+```bash
 $ npm install
 ```
 
+## SetUp Configuration
+
+You can edit values like port or webhook-url.
+in the `config.json`
+
+Output types:
+- webhook: send to Discord webhook
+- console: log into console
+
 ## Run the server
 
-```
-npm run start
+```bash
+$ sudo npm run start
 ```
 
 ## Use
 
 You can put this HTML String everywhere HTML is allowed (like the Chat or your About Me)
 
-```
-<img src="https://<serverip>:<port>/log">
+```html
+<img src="https://<serverip>:<port>/<urlpath>">
 ```
 
 Notice: The **port** is defined in tbe **config.json** and may be changed.
 
-Warning: **SOME PORTS NEED ADMINSTRATOR PERMISSIONS (like 80), JUST DO `sudo npm run start` INSTEAD OF `npm run start`**
 
 ## Note
 
