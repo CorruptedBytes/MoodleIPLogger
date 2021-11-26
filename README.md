@@ -2,7 +2,7 @@
 Log the IP of any moodle user by using manipulated HTML.
 You can also get some default response headers.
 
-##Disclaimer
+## Disclaimer
 
 This project is for educational purposes only.
 
@@ -27,6 +27,14 @@ $ npm install
 
 ```
 npm run start
+```
+
+## Use
+
+You can put this HTML String everywhere HTML is allowed (like the Chat or your About Me)
+
+```
+<img src="https://<serverip>:3000/log">
 ```
 
 ## Note
