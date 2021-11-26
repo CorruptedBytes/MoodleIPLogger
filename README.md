@@ -1,5 +1,6 @@
 # MoodleIPLogger
-Log the IP of any moodle user by using manipulated HTML.
+Log the IP of any Moodle User by using manipulated HTML.
+
 You can also get some default response headers.
 
 ## Disclaimer
